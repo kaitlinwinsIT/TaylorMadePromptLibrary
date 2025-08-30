@@ -1,2 +1,3 @@
-# TaylorMadePromptLibrary
-Prompt Storage and Creation Wizard
+# TaylorMade Prompt Library
+
+Recreated project files.
