@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/prompts.schema.json",
+  "title": "PromptEntry",
+  "type": "object",
+  "required": ["id", "title", "category", "body"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]{6,64}$"},
+    "title": {"type": "string", "minLength": 3},
+    "category": {"type": "string"},
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "body": {"type": "string"},
+    "system": {"type": "string", "description": "Optional system role text"},
+    "meta": {
+      "type": "object",
+      "properties": {
+        "createdAt": {"type": "string", "format": "date-time"},
+        "updatedAt": {"type": "string", "format": "date-time"},
+        "usageCount": {"type": "integer", "minimum": 0},
+        "author": {"type": "string"},
+        "notes": {"type": "string"},
+        "modelHints": {
+          "type": "object",
+          "additionalProperties": true,
+          "description": "Any model-specific knobs (e.g., temperature)."
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

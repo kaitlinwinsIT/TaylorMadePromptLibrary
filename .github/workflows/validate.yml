@@ -1,0 +1,14 @@
+name: Validate
+on:
+  push:
+    branches: [ main, feat/** ]
+  pull_request:
+
+jobs:
+  schema:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - run: npm i -g ajv-cli
+      - run: ajv validate -s data/prompts.schema.json -d data/prompts.json --strict=false

@@ -1,8 +1,4 @@
-__pycache__/
 *.pyc
-build/
-dist/
-*.spec
-*.exe
-venv/
-.env/
+__pycache__/
+.venv/
+.env

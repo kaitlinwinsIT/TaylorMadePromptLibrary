@@ -1,0 +1,16 @@
+[
+  {
+    "id": "resear-khqtsuau",
+    "title": "Research Brief: Zero Trust in SMBs",
+    "category": "Research & Study",
+    "tags": ["research", "brief", "security"],
+    "body": "You are an analyst. Summarize...",
+    "system": "Be precise, cite sources.",
+    "meta": {
+      "createdAt": "2025-08-30T04:00:00Z",
+      "updatedAt": "2025-08-30T04:00:00Z",
+      "usageCount": 0,
+      "author": "Kait"
+    }
+  }
+]
