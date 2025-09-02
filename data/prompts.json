@@ -1,16 +1,404 @@
-[
-  {
-    "id": "resear-khqtsuau",
-    "title": "Research Brief: Zero Trust in SMBs",
-    "category": "Research & Study",
-    "tags": ["research", "brief", "security"],
-    "body": "You are an analyst. Summarize...",
-    "system": "Be precise, cite sources.",
-    "meta": {
-      "createdAt": "2025-08-30T04:00:00Z",
-      "updatedAt": "2025-08-30T04:00:00Z",
-      "usageCount": 0,
-      "author": "Kait"
+﻿[
+    {
+        "id":  "resear-khqtsuau",
+        "title":  "Research Brief: Zero Trust in SMBs",
+        "category":  "Research \u0026 Study",
+        "tags":  [
+                     "research",
+                     "brief",
+                     "security"
+                 ],
+        "body":  "You are an analyst. Summarize...",
+        "system":  "Be precise, cite sources.",
+        "meta":  {
+                     "createdAt":  "2025-08-30T04:00:00Z",
+                     "updatedAt":  "2025-08-30T04:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "formatting-word-overhaul-a1b2c3d4",
+        "title":  "Document Formatting Overhaul (Word)",
+        "category":  "Formatting",
+        "tags":  [
+                     "word",
+                     "styles",
+                     "toc",
+                     "headings"
+                 ],
+        "body":  "Given an unstructured Word document, apply consistent Heading styles (H1â€“H3), normalize spacing (line/paragraph), fix list numbering, insert a generated Table of Contents, set margins to 1 in, add page numbers, and ensure cross-references update correctly. Provide a change log of what you adjusted.",
+        "system":  "Be meticulous. Do not change factual content. Preserve original meaning while enforcing consistent, professional formatting.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "excel-data-cleaning-kit-b5e6f7a8",
+        "title":  "Excel Data Cleaning Kit",
+        "category":  "Excel",
+        "tags":  [
+                     "excel",
+                     "cleanup",
+                     "validation",
+                     "conditional-formatting"
+                 ],
+        "body":  "Given a CSV/Excel sheet, standardize dates to ISO (YYYY-MM-DD), trim whitespace, dedupe rows by a composite key, validate email/phone columns, and flag outliers via conditional formatting. Summarize changes and errors in a new \u0027Data_Quality_Report\u0027 sheet.",
+        "system":  "Output concrete Excel steps and formulas/functions. Avoid macros unless requested.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "slide-deck-synthesizer-9f8e7d6c",
+        "title":  "Slide Deck Synthesizer",
+        "category":  "Presentation",
+        "tags":  [
+                     "slides",
+                     "story",
+                     "design"
+                 ],
+        "body":  "Turn a long brief into a 10â€“12 slide outline: Title, Problem, Why Now, Audience Insight, Solution, Demo/Flow, Proof, GTM, Roadmap, Risks, Ask. For each slide, give 1 headline, 3 bullet points (â‰¤12 words), and a simple chart/visual suggestion.",
+        "system":  "Be concise, scannable, and hierarchy-driven. Prefer verbs up front.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "alias-cross-linker-osint-1122aa33",
+        "title":  "OSINT: Alias Crossâ€‘Linker",
+        "category":  "OSINT",
+        "tags":  [
+                     "osint",
+                     "usernames",
+                     "handles",
+                     "attribution"
+                 ],
+        "body":  "Given a username/handle and rough location, propose a crossâ€‘platform search plan (social, forums, code repos). Note likely false positives. Provide a table of candidate accounts with confidence, overlap signals, and source URLs.",
+        "system":  "Use only lawful, public sources. Never bypass authentication. Explain confidence signals (e.g., bio, posting times, shared links).",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "phishing-triage-runbook-cc44dd55",
+        "title":  "CyberOps: Phishing Triage Runbook",
+        "category":  "CyberOps",
+        "tags":  [
+                     "incident",
+                     "phishing",
+                     "triage",
+                     "runbook"
+                 ],
+        "body":  "Produce a stepâ€‘byâ€‘step triage checklist: artifact capture (headers, URLs, attachments), reputation checks, sandboxing, IOC extraction, decision tree (benign/suspicious/malicious), and comms templates. Include escalation criteria and evidence logging format.",
+        "system":  "Tone: calm and precise. Provide commands/tools generically (no vendor lockâ€‘in).",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "stakeholder-incident-brief-5566ee77",
+        "title":  "Comms: Stakeholder Incident Brief (5 bullets)",
+        "category":  "Comms",
+        "tags":  [
+                     "stakeholders",
+                     "briefing",
+                     "incident"
+                 ],
+        "body":  "Condense incident status into exactly five bullets: what happened, user/system impact, containment, next 24h actions, owner/contact. Avoid jargon; include date/time (UTC) and current severity.",
+        "system":  "Plain language, executiveâ€‘friendly, present tense.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "exec-summary-distiller-8899ff00",
+        "title":  "Writing: Narrative â†’ Executive Summary",
+        "category":  "Writing",
+        "tags":  [
+                     "summary",
+                     "exec",
+                     "clarity"
+                 ],
+        "body":  "Turn a 1â€“2 page narrative into a 150â€‘word executive summary with a oneâ€‘sentence thesis, three key findings, and a single explicit recommendation.",
+        "system":  "Cut fluff. Preserve nuance. Prefer active voice and concrete numbers.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "rapid-lit-matrix-00aa11bb",
+        "title":  "Research: Rapid Literature Matrix",
+        "category":  "Research \u0026 Study",
+        "tags":  [
+                     "research",
+                     "literature",
+                     "matrix"
+                 ],
+        "body":  "Given a topic, outline a 6â€‘row literature matrix: citation, claim, method, sample size, limitations, and how it supports or challenges the consensus. Identify gaps for future study.",
+        "system":  "Be sourceâ€‘centric. Note dates and methodological caveats.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "clause-comparator-legal-22bb33cc",
+        "title":  "Legal: Contract Clause Comparator",
+        "category":  "Legal",
+        "tags":  [
+                     "contract",
+                     "comparison",
+                     "risk"
+                 ],
+        "body":  "Compare two versions of a clause. Highlight changes affecting liability, indemnity, IP, jurisdiction, or SLAs. Provide a risk note and a neutral rewrite that preserves intent while reducing exposure.",
+        "system":  "Do not provide legal advice; provide structured analysis for counsel review.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "regex-from-examples-44cc55dd",
+        "title":  "Regex Builder from Examples",
+        "category":  "Regex",
+        "tags":  [
+                     "regex",
+                     "pattern",
+                     "validation"
+                 ],
+        "body":  "Given positive and negative examples, propose a regex that matches only the positives. Explain each token and provide variants for PCRE, Python, and JavaScript. Include edge cases and tests.",
+        "system":  "Prefer readability; avoid catastrophic backtracking. Provide unitâ€‘test snippets.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "ps-bulk-rename-metadata-66dd77ee",
+        "title":  "PowerShell: Bulk Rename \u0026 Metadata Tagging",
+        "category":  "PowerShell",
+        "tags":  [
+                     "powershell",
+                     "files",
+                     "metadata"
+                 ],
+        "body":  "Given a directory, invent a renaming scheme (slug, date, counter) and add metadata (tags) to supported file types. Provide idempotent PowerShell commands and a dryâ€‘run preview.",
+        "system":  "Avoid destructive ops; include rollback instructions.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "py-csv-normalizer-88ee99ff",
+        "title":  "Python: CSV Normalizer \u0026 Schema Validator",
+        "category":  "Python",
+        "tags":  [
+                     "python",
+                     "csv",
+                     "schema"
+                 ],
+        "body":  "Output a Python snippet that normalizes CSV headers, enforces types, validates required fields, and writes a report of rowâ€‘level errors. Include instructions for running in a venv.",
+        "system":  "Keep dependencies stdlibâ€‘first; note optional pandas version.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "value-prop-teardown-11cc22dd",
+        "title":  "Marketing: Value Proposition Tearâ€‘Down",
+        "category":  "Marketing",
+        "tags":  [
+                     "positioning",
+                     "messaging",
+                     "competitors"
+                 ],
+        "body":  "Analyze a productâ€™s homepage: identify the core value prop, proof signals, and friction points. Rewrite the hero (headline + subhead + CTA) for three audience segments.",
+        "system":  "Be specific. Avoid bland buzzwords. Use measurable outcomes where possible.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "investigation-timeline-builder-33dd44ee",
+        "title":  "Investigation: Timeline Builder from Messages",
+        "category":  "Investigation",
+        "tags":  [
+                     "timeline",
+                     "messages",
+                     "forensics"
+                 ],
+        "body":  "Given exported messages/emails, build a UTC timeline with participants, channel, message IDs, and inferred events. Flag gaps, contradictions, and highâ€‘leverage followâ€‘ups.",
+        "system":  "Stick to the text evidence; label inferences explicitly with confidence levels.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "email-outreach-polish-55ee66ff",
+        "title":  "Email: Outreach Polish",
+        "category":  "Email",
+        "tags":  [
+                     "email",
+                     "outreach",
+                     "tone"
+                 ],
+        "body":  "Rewrite an outreach email for clarity and conversion: subject options (3), opener that references the recipient, 2â€“3 value bullets, a single clear ask, and a short P.S.",
+        "system":  "Keep it under 120 words. No gimmicks. Respect regional spelling (Canadian English allowed).",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "brand-voice-distiller-77ff8800",
+        "title":  "Design: Brand Voice Distiller",
+        "category":  "Design",
+        "tags":  [
+                     "brand",
+                     "tone",
+                     "style"
+                 ],
+        "body":  "From 3â€“5 writing samples, extract voice traits (formality, humor, jargon, cadence). Produce a oneâ€‘page brand voice guide with do/donâ€™t examples and a short style checklist.",
+        "system":  "Focus on observable patterns; avoid speculation about intent or identity.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "wcag-remediation-plan-9900aa11",
+        "title":  "Accessibility: WCAG Remediation Plan",
+        "category":  "Accessibility",
+        "tags":  [
+                     "wcag",
+                     "a11y",
+                     "compliance"
+                 ],
+        "body":  "Given screenshots and copy, create a remediation plan for WCAG 2.2 AA: color contrast, focus order, keyboard traps, alt text, headings, and form labels. Include quick wins vs. backlog.",
+        "system":  "Reference success criteria plainly; no legal advice. Provide test steps for each item.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "pdf-fillable-form-spec-22ee33ff",
+        "title":  "PDF: Fillable Form Spec",
+        "category":  "PDF",
+        "tags":  [
+                     "pdf",
+                     "forms",
+                     "spec"
+                 ],
+        "body":  "Draft a fieldâ€‘byâ€‘field specification for a fillable PDF: field names, types, validations, tab order, tooltips, and accessibility tags. Include a data dictionary and naming scheme.",
+        "system":  "Optimize for screen readers and export compatibility (Acrobat, Foxit).",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "sugar-dating-safety-ethics-44ee55aa",
+        "title":  "Online Relationships: Sugar Dating Safety \u0026 Ethics",
+        "category":  "Online Relationship Safety",
+        "tags":  [
+                     "safety",
+                     "ethics",
+                     "risk",
+                     "research"
+                 ],
+        "body":  "Provide a riskâ€‘focused briefing on sugarâ€‘dating contexts: verification steps, privacy safeguards, coercion/consent red flags, legal considerations by jurisdiction, and digitalâ€‘hygiene practices. Include a nonâ€‘exhaustive list of crisis resources.",
+        "system":  "Keep content nonâ€‘explicit and safetyâ€‘oriented. Do not facilitate exploitation or illegal activity. Emphasize consent, legality, and personal safety.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "daily-standup-summarizer-66aa77bb",
+        "title":  "Productivity: Daily Standup Summarizer",
+        "category":  "Productivity",
+        "tags":  [
+                     "standup",
+                     "summary",
+                     "action-items"
+                 ],
+        "body":  "Turn raw standup notes into a crisp summary with yesterday/today/blockers, grouped by owner. Emit a final checklist of action items with owners and due dates.",
+        "system":  "Prefer terse bullets. Use consistent owner â†’ action â†’ due structure.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
+    },
+    {
+        "id":  "formatting-brand-pack-88aa99cc",
+        "title":  "Formatting: Brand Pack Unifier",
+        "category":  "Formatting",
+        "tags":  [
+                     "brand",
+                     "fonts",
+                     "colors",
+                     "templates"
+                 ],
+        "body":  "Given a mixed set of Word/PowerPoint files, standardize to a single brand pack: fonts, color palette (HEX/RGB), heading hierarchy, spacing, and footer/header elements. Deliver a short checklist for future docs.",
+        "system":  "Preserve content; change presentation only. Specify exact style names for reuse.",
+        "meta":  {
+                     "createdAt":  "2025-09-02T20:00:00Z",
+                     "updatedAt":  "2025-09-02T20:00:00Z",
+                     "usageCount":  0,
+                     "author":  "Kait"
+                 }
     }
-  }
 ]
