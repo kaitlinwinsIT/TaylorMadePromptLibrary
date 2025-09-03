@@ -1,0 +1,6 @@
+- Research & Study
+- CyberOps
+- OSINT
+- Writing
+- Comms
+- Data/Code

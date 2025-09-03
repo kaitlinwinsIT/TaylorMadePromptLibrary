@@ -1,0 +1,7 @@
+*.pyc
+__pycache__/
+.venv/
+.env
+
+DesignerPromptApp_Library.py
+DesignerPromptLibrary.json

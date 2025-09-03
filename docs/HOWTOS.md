@@ -1,0 +1,4 @@
+- Add a prompt (PowerShell & Python)
+- Search for prompts by tag
+- Validate the library
+- Contribute a new category
