@@ -1,0 +1,93 @@
+{
+  "categories": {
+    "Excel": [
+      {
+        "title": "Standardize Dates & Currency",
+        "text": "Format this Excel sheet so all dates follow DD/MM/YYYY, all currency is CAD with two decimals, and duplicates are highlighted.",
+        "favorite": false,
+        "tags": [
+          "cleanup",
+          "consistency"
+        ]
+      },
+      {
+        "title": "Quick Dashboard",
+        "text": "Create a dashboard from this raw data: pivot tables, conditional formatting, and styled charts in a clean theme.",
+        "favorite": false,
+        "tags": [
+          "dashboard",
+          "charts"
+        ]
+      }
+    ],
+    "Word": [
+      {
+        "title": "Semantic Structure",
+        "text": "Reformat this Word document with consistent heading styles, a table of contents, and numbered lists.",
+        "favorite": false,
+        "tags": [
+          "structure",
+          "toc"
+        ],
+        "defaults": {
+          "brand": "",
+          "fonts": "",
+          "colors": "",
+          "extra": ""
+        }
+      }
+    ],
+    "PDF": [
+      {
+        "title": "Fillable Form",
+        "text": "Convert this Word application into a fillable PDF form with text fields, checkboxes, and a digital signature field.",
+        "favorite": false,
+        "tags": [
+          "form",
+          "fillable"
+        ]
+      },
+      {
+        "title": "sleepytime",
+        "text": "create a night routine as a dermatologist and give me my routine for my skin type (ask 4 questions to determin the skin type.",
+        "favorite": true,
+        "tags": [],
+        "defaults": {
+          "brand": "Health",
+          "fonts": "",
+          "colors": "",
+          "extra": ""
+        }
+      }
+    ],
+    "Beauty": [],
+    "Sugar": [
+      {
+        "title": "Negotiation",
+        "text": "Teach me the top 5 negotiation lines sugar babies use to get clear terms (allowance, gifts, boundaries) without making it awkward.",
+        "favorite": false,
+        "tags": [],
+        "defaults": {
+          "brand": "",
+          "fonts": "",
+          "colors": "",
+          "extra": ""
+        }
+      }
+    ],
+    "Learning Path": [
+      {
+        "title": "Conversation Starter",
+        "text": "Give me a script for the first conversation with a potential sugar daddy that sets a playful, alluring tone without sounding desperate.",
+        "favorite": false,
+        "tags": [],
+        "defaults": {
+          "brand": "",
+          "fonts": "",
+          "colors": "",
+          "extra": ""
+        }
+      }
+    ]
+  }
+}
