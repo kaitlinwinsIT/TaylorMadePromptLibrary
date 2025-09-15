@@ -1,0 +1,20 @@
+# Make text files use LF in repo; Windows will convert on checkout if needed
+* text=auto eol=lf
+
+# Enforce LF for common source/text types
+*.py   text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.txt  text eol=lf
+
+# Treat images/binaries as binary (no line-ending filters)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.zip  binary
+*.7z   binary
+*.pdf  binary

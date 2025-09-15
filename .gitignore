@@ -1,15 +1,52 @@
-﻿__pycache__/
-*.pyc
-build/
+﻿# --- Python basics ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
 dist/
-*.spec
-*.exe
+build/
+pip-wheel-metadata/
+.venv/
 venv/
-.env/
+.env
+.env.*
 
-# Ignore build artifacts
-build.zip
+# --- Tools & editors ---
+.vscode/
+.idea/
+*.code-workspace
 
-# Ignore all PNG images
+# --- OS flotsam ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs & cache ---
+*.log
+.cache/
+.mypy_cache/
+.pytype/
+.pyre/
+
+# --- Test & coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Project-specific ---
+# Ignore large/binary artifacts & local exports
+*.zip
+*.7z
+*.tar
+*.tar.gz
 *.png
+*.jpg
+*.jpeg
+*.gif
+
+# Allow specific images if you want to version a logo/screenshot:
+# !docs/images/keep/*
 
