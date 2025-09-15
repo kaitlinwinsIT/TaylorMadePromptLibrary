@@ -6,3 +6,10 @@ dist/
 *.exe
 venv/
 .env/
+
+# Ignore build artifacts
+build.zip
+
+# Ignore all PNG images
+*.png
+
